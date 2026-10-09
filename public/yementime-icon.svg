@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <style>
+      .navy { fill: #1E3A4C; }
+      .red { fill: #E21F26; }
+    </style>
+  </defs>
+  <!-- Background optional when embedded, but transparent here -->
+  <g transform="translate(5, 10)">
+    <!-- Y Person Head (Red Dot) -->
+    <circle class="red" cx="44" cy="18" r="8.5" />
+    
+    <!-- Y Left Arm & Stem (Navy) -->
+    <path class="navy" d="M 18 12 L 32 12 L 44 38 L 33 65 C 34 72 38 78 45 84 L 35 84 C 28 78 24 70 24 61 L 18 12 Z" />
+    
+    <!-- Y Right Arm & Main Body (Navy) -->
+    <path class="navy" d="M 54 12 L 44 12 L 35 34 L 35 38 L 47 12 Z" />
+    <!-- Better Y body path for smooth stylized figure -->
+    <path class="navy" d="M 18,12 L 30,12 L 41,36 L 41,44 L 28,12 Z" opacity="0" />
+    <path class="navy" d="M 15 14 L 28 14 L 39 40 L 39 48 L 48 26 L 56 14 L 46 14 L 40 29 L 40 29 L 34 14 Z" opacity="0"/>
+    
+    <!-- Unified High-Precision Y Figure -->
+    <path class="navy" d="M 16 12 L 28 12 L 38 35 L 38 38 L 36 43 L 42 66 C 45 76 50 84 56 86 L 41 86 C 34 83 30 74 27 63 L 16 12 Z" />
+    <path class="navy" d="M 56 12 L 46 12 L 38 34 L 40 40 L 56 12 Z" />
+    
+    <!-- The letter T (Navy Stem & Bar) -->
+    <path class="navy" d="M 58 12 L 88 12 L 88 23 L 74 23 L 70 86 L 58 86 L 63 23 L 58 23 Z" />
+    
+    <!-- T Top-Right Red Accent Badge -->
+    <path class="red" d="M 91 11 L 104 11 C 106 11 107 13 106 16 L 103 24 C 102 26 100 27 98 27 L 90 27 L 91 11 Z" />
+  </g>
+</svg>

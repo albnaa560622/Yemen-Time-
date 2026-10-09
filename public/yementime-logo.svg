@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&amp;family=Montserrat:wght@800;900&amp;display=swap');
+      .navy { fill: #1E3A4C; }
+      .red { fill: #E21F26; }
+      .text-yemen { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 58px; fill: #E21F26; letter-spacing: -1px; }
+      .text-time { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 58px; fill: #1E3A4C; letter-spacing: -1px; }
+      .text-arabic-navy { font-family: 'Cairo', sans-serif; font-weight: 800; font-size: 28px; fill: #1E3A4C; }
+      .text-arabic-red { font-family: 'Cairo', sans-serif; font-weight: 800; font-size: 28px; fill: #E21F26; }
+      .bracket { stroke: #1E3A4C; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- YT Emblem Symbol at Top Center -->
+  <g transform="translate(145, 10) scale(1.35)">
+    <!-- Y Figure Left Arm & Torso -->
+    <path class="navy" d="M 10 15 L 24 15 L 38 48 L 40 54 C 42 66 48 76 56 80 L 38 80 C 29 76 24 64 21 51 L 10 15 Z" />
+    <!-- Y Figure Right Raised Arm -->
+    <path class="navy" d="M 58 15 L 45 15 L 34 42 L 40 48 L 58 15 Z" />
+    <!-- Y Figure Head (Red Circle) -->
+    <circle class="red" cx="44" cy="21" r="9.5" />
+
+    <!-- T Letter (Navy Stem & Horizontal Bar) -->
+    <path class="navy" d="M 52 15 L 86 15 L 86 28 L 74 28 L 70 80 L 56 80 L 60 28 L 52 28 Z" />
+    <!-- T Top-Right Red Accent Badge -->
+    <path class="red" d="M 89 14 L 104 14 C 107 14 109 16 108 20 L 105 28 C 104 31 101 32 98 32 L 88 32 L 89 14 Z" />
+  </g>
+
+  <!-- Left Bracket -->
+  <path class="bracket" d="M 18 175 L 18 265 L 45 265" />
+
+  <!-- Right Bracket -->
+  <path class="bracket" d="M 432 175 L 432 265 L 405 265" />
+
+  <!-- English Text: YemenTime -->
+  <g transform="translate(42, 215)">
+    <text x="0" y="0"><tspan class="text-yemen">Yemen</tspan><tspan class="text-time">Time</tspan></text>
+  </g>
+
+  <!-- Arabic Text: معهد يمن تايم للتدريب والتأهيل -->
+  <g transform="translate(225, 258)">
+    <text x="0" y="0" text-anchor="middle" direction="rtl" unicode-bidi="embed">
+      <tspan class="text-arabic-navy">معهد </tspan>
+      <tspan class="text-arabic-red">يمن تايم </tspan>
+      <tspan class="text-arabic-navy">للتدريب والتأهيل</tspan>
+    </text>
+  </g>
+</svg>

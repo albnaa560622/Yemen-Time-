@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <style>
+      .navy { fill: #1E3A4C; }
+      .red { fill: #E21F26; }
+    </style>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#FFFFFF" />
+  <g transform="translate(-10, 0) scale(1.1)">
+    <!-- Y Figure Left Arm & Torso -->
+    <path class="navy" d="M 18 15 L 30 15 L 43 45 L 45 51 C 47 62 52 71 59 75 L 43 75 C 35 71 31 60 28 48 L 18 15 Z" />
+    <!-- Y Figure Right Raised Arm -->
+    <path class="navy" d="M 61 15 L 49 15 L 39 40 L 45 45 L 61 15 Z" />
+    <!-- Y Figure Head (Red Circle) -->
+    <circle class="red" cx="48" cy="21" r="8.5" />
+    <!-- T Letter (Navy Stem & Horizontal Bar) -->
+    <path class="navy" d="M 56 15 L 86 15 L 86 27 L 75 27 L 71 75 L 59 75 L 63 27 L 56 27 Z" />
+    <!-- T Top-Right Red Accent Badge -->
+    <path class="red" d="M 89 14 L 102 14 C 105 14 107 16 106 19 L 103 26 C 102 29 99 30 96 30 L 88 30 L 89 14 Z" />
+  </g>
+</svg>

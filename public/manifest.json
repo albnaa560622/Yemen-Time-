@@ -1,0 +1,28 @@
+{
+  "short_name": "يمن تايم",
+  "name": "معهد يمن تايم - حاسبة الدرجات",
+  "description": "تطبيق معهد يمن تايم لحساب الدرجات والتقديرات للطلاب والمعلمين بدقة عالية ودعم العمل بدون اتصال بالإنترنت",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/yementime-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0A0A0C",
+  "theme_color": "#1E3A4C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["education", "productivity", "utilities"],
+  "lang": "ar",
+  "dir": "rtl"
+}

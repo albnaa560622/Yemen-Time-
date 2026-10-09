@@ -1,0 +1,8 @@
+{
+  "name": "Remix Grade Calculator",
+  "description": "Precision Scoring Engine for educators and students with Material 3 dark mode theme, customizable grading scales, and instant grade tables.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
